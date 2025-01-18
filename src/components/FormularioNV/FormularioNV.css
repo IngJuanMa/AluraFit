@@ -1,0 +1,191 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 100%;
+}
+
+.formulario h1 {
+    color: #e1be2d;
+    font-family: 'Zuume Rough Bold', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.formulario p {
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+}
+
+.formulario h2 {
+    color: white;
+    font-family: 'Zuume Rough Bold', sans-serif;
+    font-size: 2.2vw;
+    border-top: 1px solid #e1be2d;
+    border-bottom: 1px solid #e1be2d;
+    padding: 1%;
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.seccioninputs {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-top: 2%;
+}
+
+label {
+    display: block;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    color: white;
+}
+
+.input {
+    box-sizing: border-box;
+    flex: 1 1 calc(45% - 5%);
+    margin-top: 2%;
+    
+}
+
+.input input {
+    width: 100%;
+    padding: 3%;
+    background: transparent;
+    border: 1px solid #e1be2d;
+    border-radius: 8px;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    margin-top: 1%;
+    color: white;
+}
+
+.input select {
+    width: 90%;
+    padding: 3%;
+    background: transparent;
+    border: 1px solid #e1be2d;
+    border-radius: 8px;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    margin-top: 1%;
+    color: white;
+}
+
+
+.input option {
+    border: none;
+    background: black;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+}
+
+.input textarea {
+    width: 55%;
+    padding: 2%;
+    min-height: 80px;
+    resize: none;
+    background: transparent;
+    border: 0.5px solid #e1be2d;
+    border-radius: 8px;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    margin-top: 1%;
+    color: white;
+}
+
+.seccionbotones {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    gap: 10%;
+    margin-top: 1%;
+}
+
+.botonguardar {
+    border: 1px solid white;
+    color: white;
+    padding: 2%;
+    background: #e1be2d;
+    color: black;
+    border-radius: 12px;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    font-size: 1.3vw;
+    width: 30%;
+}
+
+.botonguardar:hover {
+    color: aliceblue;
+    background: transparent;
+    border: 1px solid #e1be2d;
+}
+
+.botonlimpiar {
+    border: 1px solid white;
+    color: white;
+    border-radius: 12px;
+    font-size: 1.3vw;
+    width: 30%;
+}
+
+@media (min-width: 769px) {
+
+    .formulario {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .input select {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .formulario {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .input select {
+        width: 100%;
+    }
+
+    .seccioninputs{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .input textarea{
+        width: 100%;
+    }
+    .formulario h1{
+        font-size: 2.8rem;
+    }
+    .formulario p{
+        font-size: 1rem;
+    }
+
+    .formulario h2{
+        font-size: 1.5rem;
+    }
+
+    .seccionbotones{
+        width: 100%;
+        height: 30px;
+        
+    }
+
+    .botonguardar{
+        font-size: 1rem;
+    }
+
+    .botonlimpiar{
+        font-size: 1rem;
+    }
+
+}

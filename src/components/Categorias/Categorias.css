@@ -1,0 +1,117 @@
+.Categorias {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.categoria--Principiantes {
+    color: grey;
+}
+
+.Categorias h2 {
+    margin-top: 12px;
+    font-size: 1.5vw;
+    --color: #e1be2d;
+    background: #000000;
+    padding: 0.8em 1.7em;
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bold;
+    border: 3px solid #e1be2d;
+    color: var(--color);
+    z-index: 1;
+    width: 40%;
+    left: 30%;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    font-weight: bolder;
+}
+
+.seccion-cards {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    max-width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    scrollbar-width: thin;
+    /* Estiliza el scroll para navegadores compatibles */
+    scrollbar-color: #ccc transparent;
+}
+
+.categoria--Rutinas {
+    margin-top: 12px;
+    font-size: 1.5vw;
+    --color: #049DBF;
+    background: #000000;
+    padding: 0.8em 1.7em;
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bold;
+    border: 3px solid #049DBF;
+    color: var(--color);
+    z-index: 1;
+    width: 40%;
+    left: 30%;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    font-weight: bolder;
+}
+
+.categoria--Motivación {
+    margin-top: 12px;
+    font-size: 1.5vw;
+    --color: #D93425;
+    background: #000000;
+    padding: 0.8em 1.7em;
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bold;
+    border: 3px solid #D93425;
+    color: var(--color);
+    z-index: 1;
+    width: 40%;
+    left: 30%;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    font-weight: bolder;
+    ;
+}
+
+.categoria--Dieta {
+    margin-top: 12px;
+    font-size: 1.5vw;
+    --color: #1CA658;
+    background: #000000;
+    padding: 0.8em 1.7em;
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bold;
+    border: 3px solid #1CA658;
+    color: var(--color);
+    z-index: 1;
+    width: 40%;
+    left: 30%;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    font-weight: bolder;
+}
+
+@media (max-width:768px) {
+    .Categorias h2 {
+        font-size: 0.8rem;
+    }
+}

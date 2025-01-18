@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Zuume Rough Bold';
+  src: url('/public/fonts/ZuumeRoughBold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Eastman Grotesque Light';
+  src: url('/public/fonts/Eastman-Grotesque-Light-trial.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Reset de márgenes, rellenos y bordes */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Establece una tipografía básica */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Eliminamos los estilos por defecto de las listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Establecemos un tamaño base para los encabezados */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/* Enlaces sin subrayado */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Imágenes responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Eliminar bordes por defecto en elementos de formulario */
+input, select, textarea {
+  border: none;
+  outline: none;
+}
+
+/* Tabla con bordes colapsados */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Estilos básicos para botones */
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Evita los márgenes extraños de los elementos de los formularios */
+fieldset {
+  border: none;
+}
+
+/* Normalización para la visualización de las cajas de texto */
+textarea {
+  resize: vertical;
+}
+
+body {
+    background: rgb(25, 30, 32);
+    /* background: linear-gradient(0deg, rgba(5,4,0,1) 0%, rgba(25,30,36,1) 100%); */
+    background: radial-gradient(circle, rgba(17,18,19,1) 0%, rgba(0,0,0,1) 77%);
+    width: 100%;
+    min-height: 100vh;
+}

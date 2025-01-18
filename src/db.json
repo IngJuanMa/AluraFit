@@ -1,0 +1,121 @@
+{
+    "Categorias":[
+      {
+        "id": "Principiantes",
+        "Nombre": "Principiantes"
+      },
+      {
+        "id": "Rutinas",
+        "Nombre": "Rutinas"
+      },
+      {
+        "id": "Motivación",
+        "Nombre": "Motivación"
+      },
+      {
+        "id": "Dieta",
+        "Nombre": "Dieta"
+      }
+    ],
+  
+    "Post":[
+      {
+        "id": "1",
+        "title": "Cómo Tener un Físico ESTÉTICO (Guía para Adolescentes)",
+        "miniatura": "https://i.ytimg.com/vi/Ku-wKEyO0TI/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=Ku-wKEyO0TI",
+        "categoria": "Principiantes" 
+      },
+      {
+        "id": "2",
+        "title": "Cómo empezar en el gym en 2025: Guía definitiva para principiantes",
+        "miniatura": "https://i.ytimg.com/vi/w_0hSr5U-2U/hqdefault.jpg",
+        "url": "https://youtu.be/w_0hSr5U-2U",
+        "categoria": "Principiantes"
+      },
+      {
+        "id": "3",
+        "title": "CÓMO DISEÑAR una Rutina de FUERZA Y CARDIO (Entrenamiento Híbrido)",
+        "miniatura": "https://i.ytimg.com/vi/nzFy7sHXrUE/hqdefault.jpg",
+        "url": "https://youtu.be/nzFy7sHXrUE",
+        "categoria": "Principiantes"
+      },
+      {
+        "id": "4",
+        "title": "CÓMO ORGANIZAR TU RUTINA DE ENTRENAMIENTO / GUÍA COMPLETA",
+        "miniatura": "https://i.ytimg.com/vi/KXnOryN4ENc/hqdefault.jpg",
+        "url": "https://youtu.be/KXnOryN4ENc",
+        "categoria": "Principiantes"
+      },
+      {
+        "id": "5",
+        "title": "Como crear la rutina perfecta de GYM",
+        "miniatura": "https://i.ytimg.com/vi/UglCbW0bmEw/hqdefault.jpg",
+        "url": "https://youtu.be/UglCbW0bmEw",
+        "categoria": "Rutinas"
+      },
+      {
+        "id": "6",
+        "title": "CÓMO DIVIDIR TU RUTINA EN LA SEMANA",
+        "miniatura": "https://i.ytimg.com/vi/bo9isaFACrg/hqdefault.jpg",
+        "url": "https://youtu.be/bo9isaFACrg",
+        "categoria": "Rutinas"
+      },
+      {
+        "id": "7",
+        "title": "¿CUÁL ES LA MEJOR RUTINA PARA GANAR MÚSCULO? Según la ciencia",
+        "miniatura": "https://i.ytimg.com/vi/WTMfkJ7eWyI/hqdefault.jpg",
+        "url": "https://youtu.be/WTMfkJ7eWyI",
+        "categoria": "Rutinas"
+      },
+      {
+        "id": "8",
+        "title": "La MEJOR rutina FULLBODY para HIPERTROFIA",
+        "miniatura": "https://i.ytimg.com/vi/Ygsd4hD4uOo/hqdefault.jpg",
+        "url": "https://youtu.be/Ygsd4hD4uOo",
+        "categoria": "Rutinas"
+      },
+      {
+        "id": "9",
+        "title": "Cómo construir la vida que quieres.",
+        "miniatura": "https://i.ytimg.com/vi/JpSDDJyHbpg/hqdefault.jpg",
+        "url": "https://youtu.be/JpSDDJyHbpg",
+        "categoria": "Motivación"
+      },
+      {
+        "id": "10",
+        "title": "CIERRA EL AÑO CON TODO - Motivación Máxima para el Entrenamiento en el Gimnasio",
+        "miniatura": "https://i.ytimg.com/vi/-fO8g_YB6Lw/hqdefault.jpg",
+        "url": "https://youtu.be/-fO8g_YB6Lw",
+        "categoria": "Motivación"
+      },
+      {
+        "id": "11",
+        "title": "SUPERA EL DOLOR-Discurso Motivacional (Marcus Elevation Taylor)",
+        "miniatura": "https://i.ytimg.com/vi/TakRuEPV4mA/hqdefault.jpg",
+        "url": "https://youtu.be/TakRuEPV4mA",
+        "categoria": "Motivación"
+      },
+      {
+        "id": "12",
+        "title": "Qué Comer ANTES, DURANTE y DESPUÉS de Entrenar (para Ganar Músculo)",
+        "miniatura": "https://i.ytimg.com/vi/86erwVQPnkM/hqdefault.jpg",
+        "url": "https://youtu.be/86erwVQPnkM",
+        "categoria": "Dieta"
+      },
+      {
+        "id": "13",
+        "title": "¿CUÁL ES LA MEJOR DIETA? / CONSEJO FITNESS #3",
+        "miniatura": "https://i.ytimg.com/vi/sTJDNBpQO9w/hqdefault.jpg",
+        "url": "https://youtu.be/sTJDNBpQO9w",
+        "categoria": "Dieta"
+      },
+      {
+        "id": "14",
+        "title": "La dieta #1 para perder grasa (¡POR SIEMPRE!)",
+        "miniatura": "https://i.ytimg.com/vi/rL4QWvfXWxQ/hqdefault.jpg",
+        "url": "https://youtu.be/rL4QWvfXWxQ",
+        "categoria": "Dieta"
+      }
+    ]
+  }

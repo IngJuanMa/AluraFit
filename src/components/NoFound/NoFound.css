@@ -1,0 +1,61 @@
+/*======================
+    404 page
+=======================*/
+
+
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    font-family: 'Arvo', serif;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+    font-size: 80px;
+}
+
+.link_404 {
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    color: #0f0101 !important;
+    padding: 10px 20px;
+    background: #e1be2d;
+    margin: 20px 0;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.text-center{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contant_box_404 {
+    margin-top: -50px;
+    text-align: center;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+.link_404:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(247, 2, 2, 0.616) 0px 7px 13px -3px, rgba(235, 5, 5, 0.76) 0px -3px 0px inset;
+}

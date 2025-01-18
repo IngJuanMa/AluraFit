@@ -1,0 +1,156 @@
+.formularioDialog{
+    top: 2%;
+    left: 1%;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    position: fixed;
+    box-sizing: border-box;
+    width: 110vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+
+.imgcerrar {
+    width: 30px;
+    display: flex;
+    margin-left: 85%;
+    cursor: pointer;
+    padding-top: 2%;
+}
+
+.formularioEditarCard {
+    border: 3px solid #e1be2d;
+    border-radius: 30px;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    align-items: center;
+    background: radial-gradient(circle, rgba(25, 30, 36, 1) 0%, rgba(0, 0, 0, 1) 44%);
+    gap: 20px;
+}
+
+.formularioEditarCard h1 {
+    font-size: 2.5rem;
+    font-family: 'Zuume Rough Bold', sans-serif;
+    color: #e1be2d;
+}
+
+.seccionInputs {
+    box-sizing: border-box;
+    width: 70%;
+}
+
+.seccionInputs label {
+    font-family: 'Eastman Grotesque Light', sans-serif;
+}
+
+.seccionInputs input {
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    border: 1px solid #e1be2d;
+    width: 100%;
+    padding: 3%;
+    background: transparent;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.seccionInputs textarea {
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    border: 1px solid #e1be2d;
+    width: 100%;
+    padding: 3%;
+    background: transparent;
+    border-radius: 10px;
+    min-height: 80px;
+    resize: none;
+    color: aliceblue;
+}
+
+.seccionInputs select {
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    border: 1px solid #e1be2d;
+    width: 100%;
+    padding: 3%;
+    background: transparent;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.seccionInputs select option {
+    background-color: black;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+}
+
+.seccionBotones {
+    display: flex;
+    box-sizing: border-box;
+    width: 60%;
+    justify-content: center;
+    gap: 20%;
+}
+
+.botonGuardar {
+    color: #000000;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    font-size: 1.5vw;
+    padding: 2%;
+    border: 1px solid #e1be2d;
+    border-radius: 12px;
+    background-color: #e1be2d;
+}
+
+.botonGuardar:hover {
+    background-color: transparent;
+    color: wheat;
+}
+
+.botonLimpiar {
+    color: aliceblue;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    font-size: 1.5vw;
+    border: 1px solid #e1be2d;
+    border-radius: 12px;
+}
+
+.botonLimpiar:hover {
+    background-color: #e1be2d;
+    color: #000000;
+}
+
+@media (max-width:768px) {
+    .formularioEditarCard {
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 10px;
+    }
+
+    .formularioDialog{
+        left: 3%;
+    }
+
+}
+
+@media (max-width:430px){
+    .formularioEditarCard{
+        border: 1px solid #e1be2d;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .botonLimpiar,
+    .botonGuardar{
+        font-size: 1rem;
+    }
+
+    .formularioDialog{
+        left: 5%;
+        width: 100%;
+    }
+
+}

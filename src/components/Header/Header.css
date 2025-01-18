@@ -1,0 +1,92 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #191e24;
+    height: 80px;
+    box-shadow: 0 4px 6px #e1be2d;
+}
+
+.logo-mancuerna{
+    position: relative;
+    left: 10%;
+}
+
+.seccion-botones{
+    position: relative;
+    right: 10%;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton-home{
+    display:flex;
+    border: 1px solid ghostwhite;
+    background: #e1be2d;
+    width: 35%;
+    height: 60%;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    font-weight: 100;
+    box-shadow: inset 0px 6px 10px -1px rgba(0,0,0,0.15), inset 0px -3px 8px -1px rgba(243, 121, 7, 0.938);
+    margin-left: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-agregar-video{
+    display: flex;
+    border: 1px solid #e1be2d;
+    background: #191e24;
+    width: 35%;
+    height: 60%;
+    color: #ffff;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    /* font-family: 'Zuume Rough Bold', sans-serif; */
+    font-weight: 100;
+    box-shadow: inset 0px 6px 10px -1px rgba(0,0,0,0.15), inset 0px -3px 8px -1px rgba(197, 195, 192, 0.938);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.boton-home:hover{
+    border: 1px solid #e1be2d;
+    background: #191e24;
+    color: #ffff;
+    box-shadow: inset 0px 6px 10px -1px rgba(0,0,0,0.15),
+    inset 0px -3px 8px -1px rgba(197, 195, 192, 0.938);
+}
+
+.boton-agregar-video:hover{
+    background-color: #e1be2d;
+    color: black;
+    border: 1px solid ghostwhite;
+    box-shadow: inset 0px 6px 10px -1px rgba(0,0,0,0.15), inset 0px -3px 8px -1px rgba(243, 121, 7, 0.938);
+}
+
+
+@media (max-width: 768px){
+
+    .Header{
+        height: 14vw;
+    }
+    .seccion-botones{
+        width: 70%;
+        right: 5%;
+    }
+
+    .boton-home,
+    .boton-agregar-video{
+        font-size: 0.8rem;
+    }
+
+    .boton-home,
+    .boton-agregar-video{
+        border-radius: 8px;
+    }
+}

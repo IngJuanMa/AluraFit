@@ -1,0 +1,173 @@
+.banner {
+    border-top: 1px solid #e1be2d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 40vw;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 90%, #111213),linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/public/img/background.jpg);
+    color: white;
+    /* box-shadow: inset 0 -6px 6px #e1be2d; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 3%;
+
+}
+
+.seccion-textos{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 4%;
+}
+
+.seccion-textos h1 {
+    font-size: 7vw;
+    font-weight: bolder;
+    width: 100%;
+    height: 30%;    
+    color: #e1be2d ;
+    font-family: 'Zuume Rough Bold', sans-serif;
+    
+}
+
+.seccion-textos h3{
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    font-size: 1.7vw;
+    width: 100%;
+}
+
+/* Boton y estilización de boton */
+
+.button {
+    margin-top: 10%;
+    font-size: 1.5vw;
+    --color: #e1be2d;
+    background: #000000;
+    padding: 0.8em 1.7em;
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bold;
+    border: 3px solid #e1be2d;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    width: 50%;
+    left: 25%;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    font-weight: bolder;
+   }
+   
+   .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .button::before {
+    top: -3em;
+    left: -3em;
+   }
+   
+   .button::after {
+    left: calc(100% + 3em);
+    top: calc(100% + 3em);
+   }
+   
+   .button:hover::before, .button:hover::after {
+    height: 25em;
+    width: 25em;
+   }
+   
+   .button:hover {
+    color: rgb(10, 25, 30);
+   }
+   
+   .button:active {
+    filter: brightness(.8);
+   }
+
+   .container{
+    display: inline block;
+    cursor: pointer;
+    position: relative;
+   }
+   
+   
+/* estilización imagen */
+
+.imagenbanner{
+    border: 1px solid #e1be2d;
+    border-radius: 22px;
+    height: auto;
+    transition: opacity 0.3s ease;
+    display: block;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #e1be2d;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.imagenbanner:hover{
+    opacity: 0.9;
+}
+
+.container:hover .play-icon {
+    opacity: 1;
+}
+
+@media (max-width:768px){
+    .banner{
+        gap: 5%;
+        height: 60vw;
+    }
+    .imagenbanner{
+        width: 90%;
+        border-radius: 12px;
+        border: 1px solid #e1be2d;
+    }
+
+    .seccion-textos{
+        width: 100%;
+    }
+
+    .seccion-textos h1{
+        font-size: 2rem;
+    }
+
+    .seccion-textos h3{
+        font-size: 0.5rem;
+    }
+
+    .button{
+        width: 65%;
+        height: 20px;
+        left: 17.5%;
+        border: 1px solid #e1be2d;
+        border-radius: 9px;
+        font-size: 0.5rem;
+    }
+    .play-icon{
+        opacity: 1;
+    }
+
+}

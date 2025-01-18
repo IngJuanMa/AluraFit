@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-family: "DM Sans", Serif;
+    font-weight: 900;
+    color: #000000;
+    width: auto;
+    border-radius: 15px;
+    gap: 3px;
+}
+.card--Principiantes {
+    background-color: #e1be2d;
+}
+
+.card--Rutinas {
+    background-color: #049DBF;
+}
+
+.card--Motivación {
+    background-color: #D93425;
+}
+
+.card--Dieta {
+    background-color: #1CA658;
+}
+
+
+.cardimg {
+    
+    border-radius: 20px;
+    transition: opacity 0.3s ease;
+    display: block;
+
+}
+
+.cardimg--Principiantes {
+    border: 3px solid #e1be2d;
+}
+
+.cardimg--Rutinas {
+    border: 3px solid #049DBF;
+}
+
+.cardimg--Motivación {
+    border: 3px solid #D93425;
+}
+
+.cardimg--Dieta {
+    border: 3px solid #1CA658;
+}
+
+.card p {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.seccion_botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.boton_editar {
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    color: #000000;
+    position: relative;
+    display: flex;
+    width: 30%;
+    justify-content: end;
+}
+
+.boton_editar::before {
+    content: "";
+    position: absolute;
+    left: 1rem;
+    /* Posiciona la imagen dentro del botón */
+    width: 1.8rem;
+    /* Ancho de la imagen */
+    height: 1.8rem;
+    /* Alto de la imagen */
+    background-image: url('/public/img/edit.png');
+    /* Ruta de la imagen */
+    background-size: contain;
+    /* Ajusta la imagen al tamaño del ::before */
+    background-repeat: no-repeat;
+    /* Evita que se repita */
+    background-position: center;
+}
+
+
+.boton_eliminar {
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    color: #000000;
+    position: relative;
+    display: flex;
+    width: 33%;
+    justify-content: end;
+}
+
+.boton_eliminar::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    /* Posiciona la imagen dentro del botón */
+    width: 1.5rem;
+    /* Ancho de la imagen */
+    height: 1.5rem;
+    /* Alto de la imagen */
+    background-image: url('/public/img/delete.png');
+    /* Ruta de la imagen */
+    background-size: contain;
+    /* Ajusta la imagen al tamaño del ::before */
+    background-repeat: no-repeat;
+    /* Evita que se repita */
+    background-position: center;
+}
+
+.play-icono {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #ec1414;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.containerw {
+    display: inline block;
+    cursor: pointer;
+    position: relative;
+}
+
+.card img:hover {
+    opacity: 0.9;
+}
+
+.containerw:hover .play-icono {
+    opacity: 1;
+}
+
+
+@media (max-width:768px) {
+    .card p {
+        font-size: 0.5rem;
+    }
+
+}
