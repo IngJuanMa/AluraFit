@@ -158,7 +158,7 @@
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
     .card {
         flex: 1 1 calc(50% - 16px);
         /* Ocupa 50% del ancho menos el gap */
