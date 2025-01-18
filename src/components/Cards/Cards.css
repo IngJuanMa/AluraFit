@@ -10,7 +10,9 @@
     width: auto;
     border-radius: 15px;
     gap: 3px;
+    margin-bottom: 3%;
 }
+
 .card--Principiantes {
     background-color: #e1be2d;
 }
@@ -29,7 +31,7 @@
 
 
 .cardimg {
-    
+
     border-radius: 20px;
     transition: opacity 0.3s ease;
     display: block;
@@ -154,4 +156,13 @@
         font-size: 0.5rem;
     }
 
+}
+
+@media (max-width: 375px) {
+    .card {
+        flex: 1 1 calc(50% - 16px);
+        /* Ocupa 50% del ancho menos el gap */
+        max-width: calc(50% - 16px);
+        /* Asegura que no supere el 50% */
+    }
 }

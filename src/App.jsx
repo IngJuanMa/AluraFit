@@ -30,9 +30,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+      
       <Header onOpenDialog={openDialog} />
-      <main style={{ flexGrow: 1 }}>
+      
         <Routes>
           <Route path="/" element={
             <>
@@ -53,9 +53,9 @@ function App() {
           } />
 
         </Routes>
-        </main>
+        
         <Footer />
-        </div>
+        
       </BrowserRouter>
     </>
   )
