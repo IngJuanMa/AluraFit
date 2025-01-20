@@ -1,7 +1,6 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useRef, useEffect, useState } from 'react';
-import './App.css'
 import Banner from './components/Banner'
 import Categorias from './components/Categorias'
 import Footer from './components/Footer'
@@ -28,36 +27,36 @@ function App() {
     }
   };
   return (
-    <>
-      <BrowserRouter>
-      
-      <Header onOpenDialog={openDialog} />
-      
+    
+      <Router>
         <Routes>
           <Route path="/" element={
             <>
+            <Header onOpenDialog={openDialog} />
               <Banner />
               <Categorias onOpenDialog={openDialog} />
               <FormularioEC dialogRef={dialogRef} onCloseDialog={closeDialog} />
+              <Footer />
             </>
           } />
           <Route path="/Agregar_video"  element={
             <>
+            <Header onOpenDialog={openDialog} />
               <FormularioNV />
+              <Footer />
             </>
           } />
           <Route path="*" element={
             <>
+            <Header onOpenDialog={openDialog} />
               <NoFound />
+              <Footer />
             </>
           } />
 
         </Routes>
-        
-        <Footer />
-        
-      </BrowserRouter>
-    </>
+      </Router>
+  
   )
 }
 

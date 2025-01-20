@@ -35,7 +35,7 @@
     border-radius: 20px;
     transition: opacity 0.3s ease;
     display: block;
-
+    width: 100%;
 }
 
 .cardimg--Principiantes {

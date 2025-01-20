@@ -90,8 +90,5 @@ body {
     min-height: 100vh;
 }
 
-@media (max-width: 375px){
-  body{
-      max-width: 120%;
-  }
-}
+
+

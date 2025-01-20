@@ -1,9 +1,9 @@
 import './BotonE.css'
 
-const BotonE = () => {
+const BotonE = ({ onClick }) => {
 
     return (
-        <button >
+        <button onClick={onClick} >
             <img src='/img/delete.png' className='imagen'/>
             Eliminar
         </button>

@@ -1,0 +1,32 @@
+.input {
+    box-sizing: border-box;
+    flex: 1 1 calc(45% - 5%);
+    margin-top: 2%;
+    
+}
+
+label {
+    display: block;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    color: white;
+}
+
+.input textarea {
+    width: 55%;
+    padding: 2%;
+    min-height: 90px;
+    resize: none;
+    background: transparent;
+    border: 0.5px solid #e1be2d;
+    border-radius: 8px;
+    font-family: 'Eastman Grotesque Light', sans-serif;
+    margin-top: 1%;
+    color: white;
+}
+
+@media (max-width:768px) {
+    .input textarea{
+        width: 100%;
+    }
+    
+}
