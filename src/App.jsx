@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import { useRef, useEffect, useState } from 'react';
 import Banner from './components/Banner'
 import Categorias from './components/Categorias'
@@ -10,7 +10,6 @@ import Header from './components/Header'
 import NoFound from './components/NoFound';
 
 function App() {
-
   const dialogRef = useRef(null);
 
   // Función para abrir el diálogo
@@ -27,8 +26,8 @@ function App() {
     }
   };
   return (
-    
-      <Router>
+   <>
+   <Router>
         <Routes>
           <Route path="/" element={
             <>
@@ -56,7 +55,8 @@ function App() {
 
         </Routes>
       </Router>
-  
+
+   </>
   )
 }
 

@@ -12,7 +12,7 @@ label {
 }
 
 .input textarea {
-    width: 55%;
+    width: 100%;
     padding: 2%;
     min-height: 90px;
     resize: none;

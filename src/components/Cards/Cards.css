@@ -55,8 +55,9 @@
 }
 
 .card p {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 2%;
 }
 
 .seccion_botones {
@@ -164,5 +165,8 @@
         /* Ocupa 50% del ancho menos el gap */
         max-width: calc(50% - 16px);
         /* Asegura que no supere el 50% */
+    }
+    .seccion_botones{
+        font-weight: 700;
     }
 }

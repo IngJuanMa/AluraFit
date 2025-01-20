@@ -6,7 +6,7 @@ const Banner = () => {
             <div className='seccion-textos'>
                 <h1>Alura Fit -</h1>
                 <h3>La plataforma que te ayudará a alcanzar tu mejor versión.<br /> Inicia tu cambio físico con la ayuda de esta plataforma</h3>
-                <button className='button'>Principiantes</button>
+                <button className='button' >¡ Inicia ahora !</button>
             </div>
             <div >
                 <a href='https://youtu.be/bxEcouOgCWY' target='_blank'>
